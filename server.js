@@ -41,6 +41,10 @@ app.get('/', (req,res) => res.send(`<h1>Welcome to Musiq</h1>`));
 // Auth Route
 app.use('/auth', routes.auth);
 
+app.use('/artist', routes.artist);
+
+
+
 
 // -- Server --
 app.listen(PORT , ()=> console.log(`Muisq server is running.`));

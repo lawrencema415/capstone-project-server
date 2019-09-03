@@ -2,8 +2,8 @@ const express = require('express');
 const router = express.Router();
 const ctrl = require('../controllers');
 
-router.post('/add', ctrl.song.add);
-router.get('/index', ctrl.song.index);
-router.delete('/delete/:id',ctrl.song.deleteSong);
+router.post('/add', ctrl.artist.add);
+router.get('/index', ctrl.artist.index);
+router.delete('/:id',ctrl.artist.deleteArtist);
 
 module.exports = router;

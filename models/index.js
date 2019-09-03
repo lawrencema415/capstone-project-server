@@ -9,5 +9,9 @@ mongoose.connect(DB_URL, {
   .catch((err) => console.log(`MongoDB connection error: ${err}`));
 
 module.exports = {
+  Artist: require('./Artist'),
+  Album: require('./Album'),
+  Playlist: require('./Playlist'),
+  Song: require('./Song'),
   User: require('./User')
 }
