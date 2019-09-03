@@ -1,0 +1,27 @@
+{
+  "name": "musiq-server",
+  "version": "1.0.0",
+  "description": "Music streaming web application inspired by Spotify",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lawrencema415/capstone-project-server.git"
+  },
+  "author": "Lawrence Ma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lawrencema415/capstone-project-server/issues"
+  },
+  "homepage": "https://github.com/lawrencema415/capstone-project-server#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "mongoose": "^5.6.12"
+  }
+}
