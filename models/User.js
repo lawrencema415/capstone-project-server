@@ -15,6 +15,10 @@ const userSchema = new Schema({
     type: String,
     required: true
   },
+  picture: {
+    type: String,
+    default: "https://static.change.org/profile-img/default-user-profile.svg"
+  },
   birthday: {
     type: Date,
     default: Date.now,
