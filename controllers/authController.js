@@ -80,11 +80,27 @@ const verify = (req,res) => {
   res.status(200).json({status: 200, message: `Current user verified. User ID is ${req.session.currentUser.id}`})
 };
 
+const index = (req, res) => {
+  db.User.find({}, (err, foundUsers) => {
+    if(err) return req.status(500).json({status: 500, message: 'Something went wrong, please try again...'});
 
+    res.status(200).json({status: 200, data: foundUsers});
+  });
+};
+
+const show = (req, res) => {
+  db.User.findById(req.params.id, {password:0,__v:0}, (err,foundUser) => {
+    if(err) return req.status(500).json({status:500, message:"Something went wrong, please try again..."});
+
+    res.status(200).json({status:200, data: foundUser});
+  });
+};
 
 module.exports = {
   register,
   login,
   logout,
-  verify
+  verify,
+  index,
+  show
 };

@@ -43,8 +43,11 @@ app.use('/auth', routes.auth);
 
 app.use('/artist', routes.artist);
 
+app.use('/song', routes.song);
 
+app.use('/playlist', routes.playlist);
 
+app.use('/album', routes.album);
 
 // -- Server --
 app.listen(PORT , ()=> console.log(`Muisq server is running.`));

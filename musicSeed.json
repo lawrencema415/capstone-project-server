@@ -1,0 +1,44 @@
+[
+  {
+    "name":"Tester1",
+    "artist":"5d6ef462846eea247c836720",
+    "url":"http://streaming.tdiradio.com:8000/house.mp3",
+    "picture":"http://www.freshprintmagazine.com/wp-content/uploads/2013/09/Adele-21-Album-Cover-Art-500x500.png",
+    "feature":"Adele"
+  },
+  {
+    "name":"Tester2",
+    "artist":"5d6ef462846eea247c836720",
+    "url":"http://streaming.tdiradio.com:8000/house.mp3",
+    "picture":"http://www.freshprintmagazine.com/wp-content/uploads/2013/09/Adele-21-Album-Cover-Art-500x500.png",
+    "feature":"Adele"
+  },
+  {
+    "name":"Tester3",
+    "artist":"5d6ef462846eea247c836720",
+    "url":"http://streaming.tdiradio.com:8000/house.mp3",
+    "picture":"http://www.freshprintmagazine.com/wp-content/uploads/2013/09/Adele-21-Album-Cover-Art-500x500.png",
+    "feature":"Adele"
+  },
+  {
+    "name":"Something different",
+    "artist":"5d6ef462846eea247c836720",
+    "url":"http://streaming.tdiradio.com:8000/house.mp3",
+    "picture":"http://www.freshprintmagazine.com/wp-content/uploads/2013/09/Adele-21-Album-Cover-Art-500x500.png",
+    "feature":"Why don't we "
+  },
+  {
+    "name":"CD",
+    "artist":"5d6ef462846eea247c836720",
+    "url":"http://streaming.tdiradio.com:8000/house.mp3",
+    "picture":"http://www.freshprintmagazine.com/wp-content/uploads/2013/09/Adele-21-Album-Cover-Art-500x500.png",
+    "feature":"Steve lavey"
+  },
+  {
+    "name":"Good things fall apart",
+    "artist":"5d6ef462846eea247c836720",
+    "url":"http://streaming.tdiradio.com:8000/house.mp3",
+    "picture":"http://www.freshprintmagazine.com/wp-content/uploads/2013/09/Adele-21-Album-Cover-Art-500x500.png",
+    "feature":"Illenium"
+  }
+]
