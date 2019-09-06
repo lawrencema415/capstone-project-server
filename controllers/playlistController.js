@@ -21,7 +21,7 @@ const addSong = (req,res) => {
     if(err) return res.status(400).json({status:400,message:"Song not found, please try again with another id"});
     foundPlaylist.Songs.push(req.body)
     foundPlaylist.save()
-    res.status(201).json({status: 201, data: newPlaylist});
+    res.status(201).json({status: 201, data: foundPlaylist});
   })
 }
 
