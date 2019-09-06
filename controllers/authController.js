@@ -22,11 +22,11 @@ const register = (req,res) => {
 
       bcrypt.hash(req.body.password, salt, (err,hash) => {
         if (err) return res.status(500).json({ status:500, message: "Something went wrong, please try again."});
-
         const newUser = {
           email: req.body.email,
           name: req.body.name,
-          password: hash
+          password: hash,
+          birthday: req.body.birthday
         }
 
         db.User.create(newUser, (err,savedUser) => {

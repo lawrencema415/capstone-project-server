@@ -1,40 +1,107 @@
 [
   {
-    "name":"Drake1",
-    "artist":"Drake",
-    "url":"http://streaming.tdiradio.com:8000/house.mp3",
-    "picture":"http://www.freshprintmagazine.com/wp-content/uploads/2013/09/Adele-21-Album-Cover-Art-500x500.png",
-    "feature":"Adele"
-  },
-  {
-    "name":"Drake2",
-    "artist":"Drake",
-    "url":"http://streaming.tdiradio.com:8000/house.mp3",
-    "picture":"http://www.freshprintmagazine.com/wp-content/uploads/2013/09/Adele-21-Album-Cover-Art-500x500.png",
-    "feature":"Adele"
-  },
-  {
-    "name":"Take away",
-    "artist":"Chain smokers",
-    "url":"http://streaming.tdiradio.com:8000/house.mp3",
-    "picture":"http://www.freshprintmagazine.com/wp-content/uploads/2013/09/Adele-21-Album-Cover-Art-500x500.png"
-  },
-  {
-    "name":"Something different",
-    "artist":"Why don't we",
-    "url":"http://streaming.tdiradio.com:8000/house.mp3",
-    "picture":"http://www.freshprintmagazine.com/wp-content/uploads/2013/09/Adele-21-Album-Cover-Art-500x500.png"
-  },
-  {
-    "name":"CD",
-    "artist":"Steve lavey",
-    "url":"http://streaming.tdiradio.com:8000/house.mp3",
-    "picture":"http://www.freshprintmagazine.com/wp-content/uploads/2013/09/Adele-21-Album-Cover-Art-500x500.png"
-  },
-  {
-    "name":"Good things fall apart",
+    "name":"Riverie",
     "artist":"Illenium",
-    "url":"http://streaming.tdiradio.com:8000/house.mp3",
-    "picture":"http://www.freshprintmagazine.com/wp-content/uploads/2013/09/Adele-21-Album-Cover-Art-500x500.png"
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/01-Reverie+(feat.+King+Deco).mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/album.jpeg",
+    "feature":"King Deco"
+  },
+  {
+    "name":"Fortress",
+    "artist":"Illenium",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/02-Fortress+(feat.+Joni+Fatora).mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/album.jpeg",
+    "feature":"Joni Fatora"
+  },
+  {
+    "name":"With You",
+    "artist":"Illenium",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/03-With+You+(feat.+Quinn+XCII).mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/album.jpeg",
+    "feature":"Quinn XCII"
+  },
+  {
+    "name":"Without You",
+    "artist":"Illenium",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/07-Without+You+(feat.+SKYLR).mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/album.jpeg",
+    "feature":"SKYLR"
+  },
+  {
+    "name":"Afterlife",
+    "artist":"Illenium",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/10-Afterlife+(feat.+Echos).mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/album.jpeg",
+    "feature":"Echos"
+  },
+  {
+    "name":"Vaina Loco",
+    "artist":"Ozuna",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/03.+Vaina+Loca+(Ft.+Manuel+Turizo).mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/Front+Cover.jpg",
+    "feature":"Manuel Turizo"
+  },
+  {
+    "name":"Delvuelveme",
+    "artist":"Ozuna",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/04.+Devuelveme.mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/Front+Cover.jpg",
+    "feature":""
+  },
+  {
+    "name":"Quiero Mas",
+    "artist":"Ozuna",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/05.+Quiero+Mas+(Ft.+Wisin+%26+Yandel).mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/Front+Cover.jpg",
+    "feature":"Wisin & Yandel"
+  },
+  {
+    "name":"Pasado y Presente",
+    "artist":"Ozuna",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/09.+Pasado+y+Presente+(Ft.+Anuel+AA).mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/Front+Cover.jpg",
+    "feature":"Anuel AA"
+  },
+  {
+    "name":"Unica",
+    "artist":"Ozuna",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/14.+Unica.mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/Front+Cover.jpg",
+    "feature":""
+  },
+  {
+    "name":"22",
+    "artist":"Taylor Swift",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/taylor_swift-22-IroMusic-659.mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/ablum.png",
+    "feature":""
+  },
+  {
+    "name":"I knew you were trouble",
+    "artist":"Taylor Swift",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/taylor_swift-i_knew_you_were_trouble-IroMusic-796.mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/ablum.png",
+    "feature":""
+  },
+  {
+    "name":"Red",
+    "artist":"Taylor Swift",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/taylor_swift-red-IroMusic-377.mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/ablum.png",
+    "feature":""
+  },
+  {
+    "name":"Starlight",
+    "artist":"Taylor Swift",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/taylor_swift-starlight-IroMusic-581.mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/ablum.png",
+    "feature":""
+  },
+  {
+    "name":"We are never getting back together",
+    "artist":"Taylor Swift",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/taylor_swift-we_are_never_ever_getting_back_together-IroMusic-328.mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/ablum.png",
+    "feature":""
   }
 ]

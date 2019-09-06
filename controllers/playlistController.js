@@ -21,12 +21,13 @@ const addSong = (req,res) => {
     if(err) return res.status(400).json({status:400,message:"Song not found, please try again with another id"});
     foundPlaylist.Songs.push(req.body)
     foundPlaylist.save()
+    res.status(201).json({status: 201, data: newPlaylist});
   })
 }
 
 const userPlaylist = (req,res) => {
   db.Playlist.find({user:req.params.id}, (err,foundPlaylists) => {
-    if (err) return req.status(500).json({ status:500 , message: "Something went wrong, please try again."});
+    if (err) return res.status(500).json({ status:500 , message: "Something went wrong, please try again."});
     res.status(200).json({ status:200, data:foundPlaylists});
   })
 }
@@ -35,7 +36,7 @@ const deletePlaylist = (req,res) => {
   db.Playlist.findByIdAndDelete(req.params.id, (err,deletedPlaylist) => {
     if (err) return res.status(400).json({status:400, message: "Something went wrong please try again.."});
 
-    res.status(200).json({status:200, message: "The playlist has been deleted."});
+    res.status(200).json({status:200, message: "The playlist has been deleted.", data:deletedPlaylist});
   });
 };
 
