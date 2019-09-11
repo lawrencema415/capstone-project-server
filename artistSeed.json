@@ -70,7 +70,41 @@
     "name":"Ozuna",
     "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/ozuna.jpg",
     "songs":[
-
+      {
+        "name":"Vaina Loco",
+        "artist":"Ozuna",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/03.+Vaina+Loca+(Ft.+Manuel+Turizo).mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/Front+Cover.jpg",
+        "feature":"Manuel Turizo"
+      },
+      {
+        "name":"Delvuelveme",
+        "artist":"Ozuna",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/04.+Devuelveme.mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/Front+Cover.jpg",
+        "feature":""
+      },
+      {
+        "name":"Quiero Mas",
+        "artist":"Ozuna",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/05.+Quiero+Mas+(Ft.+Wisin+%26+Yandel).mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/Front+Cover.jpg",
+        "feature":"Wisin & Yandel"
+      },
+      {
+        "name":"Pasado y Presente",
+        "artist":"Ozuna",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/09.+Pasado+y+Presente+(Ft.+Anuel+AA).mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/Front+Cover.jpg",
+        "feature":"Anuel AA"
+      },
+      {
+        "name":"Unica",
+        "artist":"Ozuna",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/14.+Unica.mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Ozuna+-+Aura/Front+Cover.jpg",
+        "feature":""
+      }
     ]
   },
   {
