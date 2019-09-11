@@ -37,7 +37,7 @@ app.use(cors(corsOptions));
 
 // -- Routes --
 
-app.get('/', (req,res) => res.send(`<h1>Welcome to Musiq</h1>`));
+app.get('/', (req,res) => res.send(`<h1>Welcome to Spotafly</h1>`));
 // Auth Route
 app.use('/auth', routes.auth);
 
@@ -50,4 +50,4 @@ app.use('/playlist', routes.playlist);
 app.use('/album', routes.album);
 
 // -- Server --
-app.listen(PORT , ()=> console.log(`Muisq server is running.`));
+app.listen(PORT , ()=> console.log(`Spotafly server is running.`));

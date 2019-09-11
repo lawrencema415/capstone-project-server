@@ -24,6 +24,7 @@ const deleteArtist = (req,res) => {
   });
 };
 
+
 module.exports = {
   index,
   add,

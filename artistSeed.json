@@ -1,30 +1,185 @@
 [
   {
     "name":"Illenium",
-    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/illenium.jpg"
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/illenium.jpg",
+    "songs":[
+      {
+        "name":"Riverie",
+        "artist":"Illenium",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/01-Reverie+(feat.+King+Deco).mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/album.jpeg",
+        "feature":"King Deco"
+      },
+      {
+        "name":"Fortress",
+        "artist":"Illenium",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/02-Fortress+(feat.+Joni+Fatora).mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/album.jpeg",
+        "feature":"Joni Fatora"
+      },
+      {
+        "name":"With You",
+        "artist":"Illenium",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/03-With+You+(feat.+Quinn+XCII).mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/album.jpeg",
+        "feature":"Quinn XCII"
+      },
+      {
+        "name":"Without You",
+        "artist":"Illenium",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/07-Without+You+(feat.+SKYLR).mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/album.jpeg",
+        "feature":"SKYLR"
+      },
+      {
+        "name":"Afterlife",
+        "artist":"Illenium",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/10-Afterlife+(feat.+Echos).mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Illenium+-+Ashes/album.jpeg",
+        "feature":"Echos"
+      }
+    ]
   },
   {
     "name":"Gryffin",
-    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/gryffin.jpg"
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/gryffin.jpg",
+    "songs":[
+      {
+        "name":"All You Need To Know",
+        "artist":"Gryffin, Slander",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Single/Gryffin%2C+Slander+-+All+You+Need+To+Know+(Audio)+ft.+Calle+Lehmann.mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/gryffin.jpg",
+        "feature":"Calle Lehmann"
+      }
+    ]
   },
   {
     "name":"Black Pink",
-    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/blackpink.png"
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/blackpink.png",
+    "songs":[
+      {
+        "name":"Don't know what to do",
+        "artist":"Black Pink",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Single/BLACKPINK+-+Don't+Know+What+To+Do+(Color+Coded+Lyrics+Eng_Rom_Han_%EA%B0%80%EC%82%AC).mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/blackpink.png",
+        "feature":""
+      }
+    ]
   },
   {
     "name":"Ozuna",
-    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/ozuna.jpg"
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/ozuna.jpg",
+    "songs":[
+
+    ]
   },
   {
     "name":"Post Malone",
-    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/postmalone.jpg"
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/postmalone.jpg",
+    "songs":[
+      {
+        "name":"Goodbyes",
+        "artist":"Post Malone",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Single/Post+Malone+-+Goodbyes+(Lyrics)+ft.+Young+Thug.mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/postmalone.jpg",
+        "feature":"Young Thug"
+      },
+      {
+        "name":"Circles",
+        "artist":"Post Malone",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Single/Post+Malone+%E2%80%93+Circles+(Lyrics).mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/postmalone.jpg",
+        "feature":""
+      }
+    ]
   },
   {
     "name":"Taylor Swift",
-    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/taylorswift.jpg"
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/taylorswift.jpg",
+    "songs":[
+      {
+        "name":"22",
+        "artist":"Taylor Swift",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/taylor_swift-22-IroMusic-659.mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/ablum.png",
+        "feature":""
+      },
+      {
+        "name":"I knew you were trouble",
+        "artist":"Taylor Swift",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/taylor_swift-i_knew_you_were_trouble-IroMusic-796.mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/ablum.png",
+        "feature":""
+      },
+      {
+        "name":"Red",
+        "artist":"Taylor Swift",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/taylor_swift-red-IroMusic-377.mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/ablum.png",
+        "feature":""
+      },
+      {
+        "name":"Starlight",
+        "artist":"Taylor Swift",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/taylor_swift-starlight-IroMusic-581.mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/ablum.png",
+        "feature":""
+      },
+      {
+        "name":"We are never getting back together",
+        "artist":"Taylor Swift",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/taylor_swift-we_are_never_ever_getting_back_together-IroMusic-328.mp3",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/ablum.png",
+        "feature":""
+      }
+    ]
   },
   {
     "name":"Billie Eilish",
-    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/billie-eilish.jpg"
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/billie-eilish.jpg",
+    "songs":[
+      {
+        "name":"Bad guy",
+        "artist":"Billie Eilish",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/02+bad+guy.m4a",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/album.jpg",
+        "feature":""
+      },
+      {
+        "name":"Xanny",
+        "artist":"Billie Eilish",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/03+xanny.m4a",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/album.jpg",
+        "feature":""
+      },
+      {
+        "name":"You should see me in a crown",
+        "artist":"Billie Eilish",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/04+you+should+see+me+in+a+crown.m4a",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/album.jpg",
+        "feature":""
+      },
+      {
+        "name":"All the good girls go to hell",
+        "artist":"Billie Eilish",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/05+all+the+good+girls+go+to+hell.m4a",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/album.jpg",
+        "feature":""
+      },
+      {
+        "name":"Bury a friend",
+        "artist":"Billie Eilish",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/10+bury+a+friend.m4a",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/album.jpg",
+        "feature":""
+      },
+      {
+        "name":"I love you",
+        "artist":"Billie Eilish",
+        "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/13+i+love+you.m4a",
+        "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/album.jpg",
+        "feature":""
+      }
+    ]
   }
 ]
