@@ -103,5 +103,75 @@
     "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/taylor_swift-we_are_never_ever_getting_back_together-IroMusic-328.mp3",
     "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Taylor+Swift+-+Red/ablum.png",
     "feature":""
+  },
+  {
+    "name":"Bad guy",
+    "artist":"Billie Eilish",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/02+bad+guy.m4a",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/album.jpg",
+    "feature":""
+  },
+  {
+    "name":"Xanny",
+    "artist":"Billie Eilish",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/03+xanny.m4a",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/album.jpg",
+    "feature":""
+  },
+  {
+    "name":"You should see me in a crown",
+    "artist":"Billie Eilish",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/04+you+should+see+me+in+a+crown.m4a",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/album.jpg",
+    "feature":""
+  },
+  {
+    "name":"All the good girls go to hell",
+    "artist":"Billie Eilish",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/05+all+the+good+girls+go+to+hell.m4a",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/album.jpg",
+    "feature":""
+  },
+  {
+    "name":"Bury a friend",
+    "artist":"Billie Eilish",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/10+bury+a+friend.m4a",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/album.jpg",
+    "feature":""
+  },
+  {
+    "name":"I love you",
+    "artist":"Billie Eilish",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/13+i+love+you.m4a",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/When+we+all+fall+asleep+where+do+we+go/album.jpg",
+    "feature":""
+  },
+  {
+    "name":"Don't know what to do",
+    "artist":"Black Pink",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Single/BLACKPINK+-+Don't+Know+What+To+Do+(Color+Coded+Lyrics+Eng_Rom_Han_%EA%B0%80%EC%82%AC).mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/blackpink.png",
+    "feature":""
+  },
+  {
+    "name":"All You Need To Know",
+    "artist":"Gryffin, Slander",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Single/Gryffin%2C+Slander+-+All+You+Need+To+Know+(Audio)+ft.+Calle+Lehmann.mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/gryffin.jpg",
+    "feature":"Calle Lehmann"
+  },
+  {
+    "name":"Goodbyes",
+    "artist":"Post Malone",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Single/Post+Malone+-+Goodbyes+(Lyrics)+ft.+Young+Thug.mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/postmalone.jpg",
+    "feature":"Young Thug"
+  },
+  {
+    "name":"Circles",
+    "artist":"Post Malone",
+    "url":"https://spotify-clone.s3-us-west-1.amazonaws.com/Single/Post+Malone+%E2%80%93+Circles+(Lyrics).mp3",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/postmalone.jpg",
+    "feature":""
   }
 ]

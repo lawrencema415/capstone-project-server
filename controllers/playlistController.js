@@ -20,7 +20,7 @@ const addSong = (req,res) => {
   db.Playlist.findById(req.params.id, (err,foundPlaylist) => {
     if(err) return res.status(400).json({status:400,message:"Song not found, please try again with another id"});
     foundPlaylist.Songs.push(req.body)
-    foundPlaylist.save()
+    foundPlaylist.save();
     res.status(201).json({status: 201, data: foundPlaylist});
   })
 }
@@ -40,10 +40,28 @@ const deletePlaylist = (req,res) => {
   });
 };
 
+const viewPlaylist = (req,res) => {
+  db.Playlist.findById(req.params.id,(err,foundPlaylist)=> {
+    if (err) return res.status(404).json({ status:404 , message: "Playlist not found, please try another link."});
+    res.status(200).json({status:200,data:foundPlaylist});
+  })
+}
+
+const editName = (req,res) => {
+  db.Playlist.findById(req.params.id,(err,foundPlaylist)=> {
+    if (err) return res.status(404).json({ status:404 , message: "Playlist not found, please try another link."});
+    foundPlaylist.name = req.body.name;
+    foundPlaylist.save();
+    res.status(200).json({status:200,data:foundPlaylist});
+  })
+}
+
 module.exports = {
   index,
   add,
   deletePlaylist,
   addSong,
-  userPlaylist
+  userPlaylist,
+  viewPlaylist,
+  editName
 }

@@ -1,0 +1,30 @@
+[
+  {
+    "name":"Illenium",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/illenium.jpg"
+  },
+  {
+    "name":"Gryffin",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/gryffin.jpg"
+  },
+  {
+    "name":"Black Pink",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/blackpink.png"
+  },
+  {
+    "name":"Ozuna",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/ozuna.jpg"
+  },
+  {
+    "name":"Post Malone",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/postmalone.jpg"
+  },
+  {
+    "name":"Taylor Swift",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/taylorswift.jpg"
+  },
+  {
+    "name":"Billie Eilish",
+    "picture":"https://spotify-clone.s3-us-west-1.amazonaws.com/Artist+photo/billie-eilish.jpg"
+  }
+]
