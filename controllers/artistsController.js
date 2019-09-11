@@ -24,9 +24,17 @@ const deleteArtist = (req,res) => {
   });
 };
 
+const viewArtist = (req,res) => {
+  db.Artist.findById(req.params.id,(err,foundArtist)=> {
+    if (err) return res.status(404).json({ status:404 , message: "Artist not found, please try another link."});
+    res.status(200).json({status:200,data:foundArtist});
+  })
+}
+
 
 module.exports = {
   index,
   add,
-  deleteArtist
+  deleteArtist,
+  viewArtist
 }
